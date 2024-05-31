@@ -1,0 +1,38 @@
+.galery-container{
+margin: 0;
+padding: 2rem;
+background-color: white;
+}
+
+.image-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap:0.5rem
+
+
+}
+.image-container img{
+
+display: block;
+   height: 100%;
+   width: 100%;
+    border: 1px solid white;
+}
+
+.image-container img:hover{
+    border-color: blueviolet;
+}
+@media screen and (max-width:1000px) {
+
+    .image-container{
+grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .image-container{
+        grid-template-columns: 1fr ;
+            }
+
+}

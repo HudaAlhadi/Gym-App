@@ -1,0 +1,17 @@
+.Cart{
+   width: 230px; 
+   background-color:rgb(75, 71, 181);
+
+   border: 1px solid transparent;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+  
+}
+.Cart:hover{
+
+   background: transparent;
+   border-color: burlywood;
+}

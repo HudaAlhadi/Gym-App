@@ -1,0 +1,43 @@
+.Header-container{
+height: 20rem;
+overflow: hidden;
+
+}
+
+
+.Header-wrapper{
+position: relative;
+height: 100%;
+display: grid;
+place-items: center;
+
+
+}
+.Header-content{
+
+ color: white;
+ position: relative;
+ text-align: center;
+ width: 50%;
+}
+.Image-container{
+position: absolute;
+width: 100%;
+
+
+}
+.Image-container img{
+ width: 100%;
+opacity: 0.5;
+margin: auto;
+display: block;
+}
+.Header-content h1{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .Header-content{
+        width: 76%;
+    }
+}

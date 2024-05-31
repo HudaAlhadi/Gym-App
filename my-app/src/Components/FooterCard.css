@@ -1,0 +1,101 @@
+.footercard{
+color: rgb(238, 245, 245);
+    background-color: white;
+  display: grid;
+  align-items: center;
+
+  
+}
+.svg-container{
+
+display: grid;
+gap: 2rem;
+padding: 4rem 0;
+place-items: center;
+text-align: center;
+
+
+    
+}
+.svg-container h2{
+    color: black;
+    font-weight: bold;
+}
+.svg-container p{
+    color: black;
+}
+.svg-wrapper{
+
+display: flex;
+justify-content: space-between;
+}
+.header{
+    text-align: center;
+}
+.header h2 span{ 
+    font-size: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-image: linear-gradient(to right, #ff00cc, #3333ff);
+}
+.header h2 {
+    color: black;
+    font-size: 40px;
+}
+.svg-container svg{
+    background-color: rgb(75, 71, 181);
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 0.6rem;
+ 
+}
+.footercard .icon{
+background-color: #ff00cc;
+
+}
+.svv{
+  color: green;
+display: grid;
+align-items: end;
+height: 130px
+
+}
+
+
+.svv svg{
+    width: 40px;
+    height: 50px;
+  
+    
+}
+.svg-wrapper{
+
+}
+
+@media screen and (max-width:900px) {
+    .footercard{
+
+        max-width: 900px;
+        margin: 0 auto;
+    place-items: center;
+    }
+    .svg-container{
+margin: 0;
+padding: 1rem;
+
+
+    }
+    .svg-wrapper{
+display: grid;
+
+    }
+.svv{
+    place-items: center;
+}
+    .svv svg{
+   
+  rotate: 90deg
+    }
+}

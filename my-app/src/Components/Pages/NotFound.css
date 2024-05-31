@@ -1,0 +1,23 @@
+.Notfound-container{
+color: white;
+    height: 50vh;
+    text-align: center;
+    
+    display: grid;
+    place-items: center;
+}
+
+.btn{
+    padding: 0.7rem 0.88rem ;
+    color:white;
+    background-color:dodgerblue ;
+    margin-top: 5rem;
+    font-size: 15px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 20px ;
+    border: none;
+}
+.NotFound-wrapper h1{
+    font-size: 30px;
+}

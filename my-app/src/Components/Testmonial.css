@@ -1,0 +1,84 @@
+.Testmonial{
+    background-color: rgb(75, 71, 181);
+   padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   max-width: 500px;
+   border: 1px solid white;
+   margin-top: 2rem;
+   position: relative;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   text-align: center;
+}
+.Testmonial-container{
+
+  margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerr span{
+
+
+color: darkorange;
+display:inline-block ;
+align-items: center;
+background-color:rgb(13, 79, 145) ;
+margin-right: 1rem ;
+cursor: pointer;
+padding: 0.3em 0.6rem;
+
+border-radius: 20px ;
+border: none;}
+
+
+.containerr h2 { 
+color: white;
+margin-bottom: 4rem;
+margin-left: 2rem;
+font-weight: bold;}
+
+.containerr{
+
+}
+.button{
+    display: flex;
+    align-self: center;
+margin-top: 2rem;
+}
+.button svg{
+    margin-left: 0.2rem;
+    color: rgb(154, 133, 133);
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    color: black;
+ 
+  
+  
+}
+.Testmonial img{
+
+    position: absolute;
+    top: -3rem;
+    left: calc(50% - 2.5rem);
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 1.5rem;
+
+}
+.Testmonial h2{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+@media screen and(max-width:900px) {
+    .Testmonial-container{
+
+    }
+}

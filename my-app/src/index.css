@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray-hue);
+  line-height: 1.7;
+	background-color: rgb(30 27 75);
+  overflow-x: hidden;
+}
+
+
+*,*::before, *::after{
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+img{
+
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+:root{
+  --primary-hue:210;
+  --gray-hue:240;
+  --color-primary:hsl(var(var(--primary-hue))), 100%,50%;
+  --color-gray-600: hsl(var(var(--color-gray-600))), 100%,50%
+}
+
+
+h1,h2,h3{
+
+line-height: 1.2;
+  color: var(--color-gray-100);
+}
+
+h1{
+
+}
+h2{
+ 
+}
+h3{
+  font-size: 15px;
+}
+@media screen and (max-width:900px){
+  h1,h2{
+    font-size: 20px;
+  }
+}

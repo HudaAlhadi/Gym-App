@@ -1,0 +1,39 @@
+.plans-container{
+ 
+    display: flex;
+   justify-content: space-evenly;
+padding: 5rem 0;
+place-items: center;
+
+}
+
+.package-container{
+color: white;
+text-align: center;
+
+padding-top: 2rem;
+  
+}
+.package-container p{
+    margin-bottom: 2rem;
+
+}
+.disable{
+
+
+}
+.package-container h1{
+    font-size: 30px;
+}
+.package-container span{
+    color: rgb(39, 39, 186);
+    font-size: 40px;
+    font-weight: bold;
+}
+@media screen  and (max-width: 824px){
+    .plans-container{
+        display: grid;
+        gap: 2rem;
+
+    }
+}
