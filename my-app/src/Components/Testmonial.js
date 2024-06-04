@@ -9,25 +9,25 @@ const Testmonials= [
 
     {
         id: 0,
-       question: 'How is your age genneration',
-        answer: 'dh uuufhe00000 how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
-        open:false,
+       question: 'John D.',
+        answer: 'Joining this fitness community has been life-changing. The trainers are incredibly knowledgeable and supportive, and the environment is so motivating',
+      
         img: '..Assests/download.jpg'
     },
 
     {
         id: 1,
-        question: 'How is your age genneration',
-        answer: 'dh hhhfh1111e how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
-        open: false,
+        question: 'Sarah M.',
+        answer: 'I love the variety of classes offered. Theres something for everyone, and the instructors make each session fun and challenging, I have seen amazing results and made great friends along the way',
+        
         img: '../Assests/test2.jpg'
 
     },
 
     {
         id: 2,
-        question: 'How is your age genneration',
-        answer: 'dh ffff222he how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
+        question: 'Alex P.',
+        answer: 'The personalized approach really sets this gym apart. My trainer took the time to understand my goals and created a plan that worked perfectly for me. The progress I have made is incredible.',
         open: false,
         
         img: '../Assests/test3.jpg'
@@ -38,8 +38,8 @@ const Testmonials= [
 
     {
         id: 3,
-        question: 'How is your age genneration',
-        answer: 'dh ttttt333tfhe how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
+        question: 'Emily R',
+        answer: 'The online training program is fantastic! It’s convenient and flexible, allowing me to work out from home with professional guidance. I highly recommend it to anyone with a busy schedule',
         open: false,
           
         img: '../Assests/test1.jpg'

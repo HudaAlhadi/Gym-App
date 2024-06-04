@@ -1,5 +1,5 @@
 import './Galery.css'
-import OIP from '../../Assests/OIP.jpg'
+import Fit from '../../Assests/Fitness.jpg'
 import SecondaryHeader from "../SecondaryHeader"
 const Galery=()=>{
 
@@ -13,7 +13,7 @@ galery.push(require(`../../Assests/test${i}.jpg`))
 
     return(
         <> 
-        <SecondaryHeader image={OIP} title= 'Our Galery' >
+        <SecondaryHeader image={Fit} title= 'Our Gallery' >
             Hbs feh dehj je ehf uf jdcbe fhec hec hcb dhbc chbc hdcb hc h chbc hec ehbc eh h fbr f vrjb 
             </SecondaryHeader>
 

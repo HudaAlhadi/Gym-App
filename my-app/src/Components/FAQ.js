@@ -14,33 +14,32 @@ const Questions= [
 
     {
         id: 0,
-       question: 'How is your age genneration',
-        answer: 'dh uuufhe how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
-        open:false
+       question: 'What should I bring to my first training session?',
+        answer: 'Wear comfortable workout clothes, bring a water bottle, and a towel. If you have any medical conditions or injuries, please inform your trainer beforehand.',
+       
     },
 
     {
         id: 1,
-        question: 'How is your age genneration',
-        answer: 'dh hhhfhe how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
-        open: false
+        question: 'How often should I work out to see results?',
+        answer: 'It depends on your goals and current fitness level. Generally, we recommend at least 3-4 times a week, but your trainer can create a personalized plan that suits your needs.',
+        
 
     },
 
     {
         id: 2,
-        question: 'How is your age genneration',
-        answer: 'dh ffffhe how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
-        open: false
+        question: 'Are your programs suitable for beginners?',
+        answer: 'Absolutely! Our programs are designed for all fitness levels. Our trainers will work with you to create a plan that matches your experience and goals.',
+      
 
 
     },
 
     {
         id: 3,
-        question: 'How is your age genneration',
-        answer: 'dh ttttttfhe how to do that in real world its going to be new era of new oppurtnties of new ages and new ways of dicovering',
-        open: false
+        question: 'Do you offer nutritional guidance?',
+        answer: 'Yes, we offer comprehensive nutrition coaching to complement your fitness program. Our experts will help you create a balanced diet plan to support your fitness journey.',
         
 
     }

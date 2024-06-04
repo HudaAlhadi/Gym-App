@@ -1,6 +1,7 @@
 
 import './Header.css'
 import download from '../Assests/download.jpg'
+import Fit from '../Assests/Fit4.jpg'
 import Cart from './UI/Cart'
 const Header=()=>{
     
@@ -8,7 +9,7 @@ const Header=()=>{
 <>
 <div className='Header'>
   
-<img src={download}/> 
+<img src={Fit}/> 
    
     <div className='section-left'> 
         <span>100DayOfWorkOut </span>

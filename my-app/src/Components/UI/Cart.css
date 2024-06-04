@@ -1,6 +1,6 @@
 .Cart{
-   width: 230px; 
-   background-color:rgb(75, 71, 181);
+   width: 300px; 
+   background-color: aquamarine;
 
    border: 1px solid transparent;
    border-top-right-radius: 40px;
@@ -14,4 +14,21 @@
 
    background: transparent;
    border-color: burlywood;
+
 }
+
+
+@media screen and (max-width:593px) {
+   .Cart{
+     min-width: 350px; 
+     
+ 
+     
+   }}
+   @media screen and (max-width:1454px){
+
+.Cart{
+   width: 250px; 
+  
+}}
+   

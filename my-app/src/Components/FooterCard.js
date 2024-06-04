@@ -18,7 +18,7 @@ const FooterCard=()=>{
             <div className='svg-container'> 
            <ImMobile></ImMobile>
            <h2> Sign Up in Seconds</h2>
-           <p> hud dinfc jfcnfe fenf efjn efjenf ejfne fjenf efjnjer fjrnf rjfnr fjrng rjg rjgnr gjrng rgign rjgn rgjrng rjgn </p>
+           <p> Open the App and Tap on the app icon to open it.Then press on sign up button </p>
            </div> 
            <div className='svv'>
        <HiArrowNarrowRight></HiArrowNarrowRight>
@@ -26,7 +26,8 @@ const FooterCard=()=>{
            <div className='svg-container'> 
             <BsCheck2Circle> </BsCheck2Circle>
             <h2> Download the Mobile App</h2>
-            <p> hud dinfc jfcnfe fenf efjn efjenf ejfne fjenf efjnjer fjrnf rjfnr fjrng rjg rjgnr gjrng rgign rjgn rgjrng rjgn </p>
+            <p> Tap the Download or Install button.
+Wait for the app to download and install on your device.</p>
             </div> 
             <div className='svv'>
        <HiArrowNarrowRight></HiArrowNarrowRight>
@@ -34,7 +35,8 @@ const FooterCard=()=>{
             <div className='svg-container'> 
             <TbTargetArrow></TbTargetArrow>
             <h2>Reach Your Fitness Goals</h2>
-            <p> hud dinfc jfcnfe fenf efjn efjenf ejfne fjenf efjnjer fjrnf rjfnr fjrng rjg rjgnr gjrng rgign rjgn rgjrng rjgn </p>
+            <p> Open the app and navigate to the Goals section.
+Set your fitness goals </p>
             </div> 
             </div>
             </div>

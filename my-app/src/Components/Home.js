@@ -22,29 +22,29 @@ const elements= [
 
     {
         id: 5,
-        header: 'Program one',
-        des: 'dh fhe how to do that in real world '
+        header: 'Personal Training:',
+        des: 'Receive one-on-one coaching tailored to your specific fitness goals.  '
     },
 
     {
         id: 4,
-        header: 'Program tow',
-        des: 'dh fhe how to do that in real world '
+        header: 'Group Fitness Classes:',
+        des: 'Join our dynamic and motivating group fitness classes. '
 
     },
 
     {
         id: 3,
-        header: 'Program three',
-        des: 'dh fhe how to do that in real world '
+        header: 'Nutrition Coaching:',
+        des: 'Achieve a balanced and healthy lifestyle with our nutrition coaching  '
 ,
 
     },
 
     {
         id: 2,
-        header: 'Program four',
-        des: 'dh fhe how to do that in real world '
+        header: 'Online Training Programs',
+        des: 'Access our fitness programs from anywhere with our online training '
 
     }
 ]

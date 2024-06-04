@@ -1,5 +1,6 @@
 import Gym from '../Assests/Gym.jpg'
 import './section.css'
+import Fit5 from '../Assests/Fit5.jpg'
 import Cart from './UI/Cart'
 import {MdOutlineCardMembership} from 'react-icons/md'
 import {AiOutlineCrown} from 'react-icons/ai'
@@ -10,29 +11,29 @@ const Values=()=>{
 
         {
             id: 5,
-            header: 'Value one',
-            des: 'dh fhe how to do that in real world '
+            header: 'Commitment to Excellence',
+            des: 'We strive to provide the highest quality fitness services and experiences. Our team is dedicated to continuous improvement, ensuring you receive the best guidance and support.'
         },
     
         {
             id: 4,
-            header: 'Value tow',
-            des: 'dh fhe how to do that in real world '
+            header: 'Community and Support',
+            des: 'We believe in building a strong, supportive community where everyone feels welcome. Our environment encourages camaraderie and mutual encouragement to help you reach your fitness goals '
     
         },
     
         {
             id: 3,
-            header: 'Value three',
-            des: 'dh fhe how to do that in real world '
-    ,
+            header: 'Personalized Approach:',
+            des: 'Every individual is unique, and so are their fitness needs. We tailor our programs to suit your specific goals, preferences, and fitness levels to maximize your results'
+    
     
         },
     
         {
             id: 2,
-            header: 'Value four',
-            des: 'dh fhe how to do that in real world '
+            header: 'Integrity and Transparency',
+            des: 'We operate with honesty and transparency in all our dealings. Our pricing, programs, and progress tracking are clear and straightforward, ensuring you always know what to expect.'
     
         }
     ]
@@ -52,12 +53,12 @@ const Values=()=>{
        
         <div className='section-container'> 
        <div className='gym-image-container'>
-<img src={Gym} /> 
+<img src={Fit5} /> 
 </div>
 <div className='rightsec-cotainer'> 
 <div className='right-header'> 
 <h2> <span> <LiaCrownSolid> </LiaCrownSolid></span>Our values </h2>
-<p> hye d yrf hf f5yrh fh5fb hfd fhc c5hf  frcv5 fcrv 5gfc5vf gfcvgrc </p>
+
 </div>
 <div className='right-sec'>
     {values}

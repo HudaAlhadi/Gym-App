@@ -12,8 +12,12 @@ const Footer= ()=>{
         <footer className='Footer'>
             <div className='footer-wrapper'>
 <article >
-<h2> VAWU<span>Lies</span></h2>
-<p> jje ejk fernfken  kenkfn kefkn ekfke fkkef kfdkefn efkfkn efkfk ekhfk kehkf ekfken ekfkfem fkef kfk efkhf fekfk efkfke efhk </p>
+<h2> VAWU<span>Lines</span></h2>
+<p> Contact Us:<br/> 
+
+Address: 123 Fitness Street, Workout City, Fit Country
+Phone: (123) 456-7890
+Email: info@fitnesswebsite.com</p>
 <div className='Social'> 
 <TiSocialSkypeOutline/> 
 <SlSocialTwitter/>
@@ -22,30 +26,31 @@ const Footer= ()=>{
 </div>
 </article>
 <article>
-<h4> Permanalities</h4>
+<h4> Navigation</h4>
 <ul> 
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
+<Link to='/'> <li>  Home</li></Link>
+<Link to='/about'> <li>  About us</li></Link>
+<Link to='/'> <li>  Programs
+</li></Link>
+<Link to='/'> <li>  Schedule</li></Link>
 </ul>
 </article>
 <article>
-<h4> Permanalities</h4>
+<h4> Quick Links</h4>
 <ul> 
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
+<Link to='/'> <li>  Membership</li></Link>
+<Link to='/'> <li>  FAQs</li></Link>
+<Link to='/'> <li>  Testimonials</li></Link>
+<Link to='/'> <li>  Privacy Policy</li></Link>
 </ul>
 </article>
 <article>
-<h4> Permanalities</h4>
+<h4> Social Media</h4>
 <ul> 
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
-<Link to='/'> <li>  About</li></Link>
+<Link to='/'> <li> Facebook</li></Link>
+<Link to='/'> <li>  Instagram</li></Link>
+<Link to='/'> <li>  Twitter</li></Link>
+<Link to='/'> <li> Youtube</li></Link>
 </ul>
     
 </article>

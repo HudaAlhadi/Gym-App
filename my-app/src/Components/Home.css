@@ -64,9 +64,10 @@
     border-radius: 20px ;
     border: none;;
 }
+
 .element p{
     font-weight: lighter;
-    color: rgb(111, 90, 90);
+    color:black;
     margin-bottom: 3rem;
 }
 
@@ -88,20 +89,17 @@ margin: 0 auto
 
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:596px){
     .elements{
 
     display:grid;
-  grid-template-columns: 1fr 1fr;
-    gap: 2rem 0.2rem;
+  grid-template-columns: 1fr ;
+
 
 
 
 
 
     };
-    .element{
-
-
-    }
+   
 }

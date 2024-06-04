@@ -17,22 +17,19 @@
 .img.img-container{
 overflow: hidden;
 border-radius: 40%;
-transform: skew(10deg);
+
+transform: skew(1deg);
 border: 1px solid white;
 }
 
 .img-container img{ 
-max-width: 100%;
-min-width: 100%;
-margin: auto;
-display: block;
+height: 100%;
 
 }
 .img-container2 img{
-    max-width: 100%;
-    min-width: 100%;
-    margin: auto;
-    display: block; 
+    
+    
+   
 }
 
 .about-content h1{
@@ -53,9 +50,10 @@ color: white;
     }
     .img-container2  {
         overflow: hidden;
-        border-radius: 40%;
-        transform: skew(-9deg);
-        border: 1px solid white;
+border-radius: 40%;
+
+transform: skew(1deg);
+border: 1px solid white;
 
         }
         .about-container3{
@@ -69,8 +67,9 @@ color: white;
         .img-container3{
             overflow: hidden;
             border-radius: 40%;
-            transform: skew(5deg);
-            border: 1px solid white; 
+            
+            transform: skew(1deg);
+            border: 1px solid white;
         }
         .img-container3 img{
             max-width: 100%;
