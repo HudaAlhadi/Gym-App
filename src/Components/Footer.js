@@ -1,5 +1,6 @@
 import './Footer.css'
-import {SlSocialFacebook, SlSocialTwitter} from 'react-icons/sl'
+import { SiFacebook } from "react-icons/si";
+import { SlSocialTwitter } from "react-icons/sl";
 import {TiSocialLinkedin,TiSocialSkypeOutline} from 'react-icons/ti'
 import {Link} from 'react-router-dom'
 import FooterCard from './FooterCard'
@@ -24,7 +25,7 @@ Email: info@fitnesswebsite.com</p>
 <TiSocialSkypeOutline/> 
 <SlSocialTwitter/>
 <TiSocialLinkedin ></TiSocialLinkedin> 
-<SlSocialFacebook ></SlSocialFacebook>
+<SiFacebook ></SiFacebook>
 </div>
 </article>
 <article>
