@@ -14,7 +14,7 @@
 
 }
 
-.img.img-container{
+.img.images-container{
 overflow: hidden;
 border-radius: 40%;
 
@@ -22,11 +22,11 @@ transform: skew(1deg);
 border: 1px solid white;
 }
 
-.img-container img{ 
+.images-container img{ 
 height: 100%;
 
 }
-.img-container2 img{
+.images-container2 img{
     
     
    
@@ -48,7 +48,7 @@ color: white;
         color: white;
         padding: 2rem;
     }
-    .img-container2  {
+    .images-container2  {
         overflow: hidden;
 border-radius: 40%;
 
@@ -64,14 +64,14 @@ border: 1px solid white;
             color: white;
             padding: 2rem;
         }
-        .img-container3{
+        .images-container3{
             overflow: hidden;
             border-radius: 40%;
             
             transform: skew(1deg);
             border: 1px solid white;
         }
-        .img-container3 img{
+        .images-container3 img{
             max-width: 100%;
             min-width: 100%;
             margin: auto;

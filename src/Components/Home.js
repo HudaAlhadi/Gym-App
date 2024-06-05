@@ -22,20 +22,20 @@ const elements= [
 
     {
         id: 5,
-        header: 'Personal Training:',
+        header: 'Personal Training',
         des: 'Receive one-on-one coaching tailored to your specific fitness goals.  '
     },
 
     {
         id: 4,
-        header: 'Group Fitness Classes:',
+        header: 'Group Fitness Classes',
         des: 'Join our dynamic and motivating group fitness classes. '
 
     },
 
     {
         id: 3,
-        header: 'Nutrition Coaching:',
+        header: 'Nutrition Coaching',
         des: 'Achieve a balanced and healthy lifestyle with our nutrition coaching  '
 ,
 

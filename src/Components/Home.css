@@ -68,6 +68,7 @@
 .element p{
     font-weight: lighter;
     color:black;
+    font-weight:400;
     margin-bottom: 3rem;
 }
 

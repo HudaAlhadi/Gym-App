@@ -1,3 +1,5 @@
+
+
 .galery-container{
 margin: 0;
 padding: 2rem;
@@ -11,6 +13,71 @@ gap:0.5rem
 
 
 }
+.sub-header{
+
+    text-align: center;
+ 
+}
+.gallery-section{
+    background-color: white;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 3rem;
+
+}
+.sub-header span{
+    color: rgb(130, 91, 63);
+}
+.heading-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background-color: #00b3b3; /* Background color to match the image */
+      padding: 20px;
+    }
+
+    .heading-container::before,
+    .heading-container::after {
+      content: '';
+      flex: 1;
+      height: 2px; /* Line height */
+      background: white; /* Line color */
+      margin: 0 10px; /* Spacing between line and text */
+    }
+
+    .heading-container::before {
+      border-top-left-radius: 10px; /* Rounded corner for the left side */
+    }
+
+    .heading-container::after {
+      border-top-right-radius: 10px; /* Rounded corner for the right side */
+    }
+.content-container h2{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.content-container span{
+    font-size: 50px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 4rem 1rem;
+}
+.content-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+
+}
 .image-container img{
 
 display: block;
@@ -22,6 +89,13 @@ display: block;
 .image-container img:hover{
     border-color: blueviolet;
 }
+@media screen and (max-width:1234px) {
+
+    .content-container{
+gap: 1rem;
+            }
+    
+}
 @media screen and (max-width:1000px) {
 
     .image-container{
@@ -29,10 +103,23 @@ grid-template-columns: 1fr 1fr;
     }
     
 }
-
 @media screen and (max-width:700px){
     .image-container{
         grid-template-columns: 1fr ;
             }
 
+}
+@media screen and (max-width:691px) {
+.Gallery{
+    align-items: center;
+  
+}
+    .content-container{
+flex-direction: column;
+align-items: center;
+
+
+            }
+          
+    
 }

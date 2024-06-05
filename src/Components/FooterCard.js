@@ -7,9 +7,7 @@ const FooterCard=()=>{
 
 
     return(
-
         <> 
-       
         <div className="footercard"> 
         <div className='header'> 
         <h2> How It <span> Works</span></h2>

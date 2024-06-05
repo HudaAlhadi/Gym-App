@@ -1,0 +1,29 @@
+.Ad h2{
+    color: rgb(5, 230, 178);
+    font-size: 25px;
+    
+    
+}
+.Ad{
+    text-align: center;
+    background-color: white;
+margin-bottom: 0.1rem;
+    padding-top: 2rem;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    transform: scale(0.5);
+height: auto;
+margin: 0;
+    
+}
+@media screen and (max-width:692px){
+    .img-container{
+        flex-direction: column;
+        transform: scale(0.7);
+    }
+}

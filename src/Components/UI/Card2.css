@@ -1,0 +1,12 @@
+.Card2{
+    width: 300px; 
+    background: linear-gradient(135deg, #093C95, #158FD3);
+ 
+    border: 1px solid transparent;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+

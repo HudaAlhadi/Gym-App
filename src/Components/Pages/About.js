@@ -14,7 +14,7 @@ const About=()=>{
         </SecondaryHeader>
         <section className='About-story'> 
 <div className='about about-container'> 
-<div className='img img-container'>
+<div className='img images-container'>
 <img src= {Fit3}/>
 </div>
 <div className='about about-content'>
@@ -35,13 +35,13 @@ Recognizing the need to reach more people, we embraced technology and launched o
     <h1> Our Vision</h1>
     <p> Our vision is to become a leading global fitness community renowned for transforming lives through personalized, effective, and innovative fitness solutions. We aspire to foster a culture of health and wellness that extends beyond our members, positively impacting the broader community and contributing to a healthier world.</p>
     </div>
-    <div className='img img-container2'>
+    <div className='img images-container2'>
 <img src= {Fit}/>
 </div>
 </div>
 <div className='about about-container3'> 
 
-<div className='img img-container3'>
+<div className='img images-container3'>
 <img src= {fitness}/>
 </div>
 <div className=' about-content3'>

@@ -4,11 +4,11 @@ import Cart from '../UI/Cart'
 import download from '../../Assests/download.jpg'
 import SecondaryHeader from '../SecondaryHeader'
 const Plans=()=>{
-console.log(plans)
+
     return(
 <> 
-<SecondaryHeader title= 'About us' image={download}> 
-   HUDA IS SDUHD EUHF EJFHFEJFN JEHF FJHV RFRG RJHJG RGHRG HFRJG RGHR GRHGR GRG RGB RGHRGBG RRHGB RFHRBG 
+<SecondaryHeader title= 'Our Plans' image={download}> 
+Discover our amazing Plans
         </SecondaryHeader>
 <div className='plans-container'> 
 

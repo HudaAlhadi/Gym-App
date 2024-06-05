@@ -3,11 +3,13 @@ import {SlSocialFacebook, SlSocialTwitter} from 'react-icons/sl'
 import {TiSocialLinkedin,TiSocialSkypeOutline} from 'react-icons/ti'
 import {Link} from 'react-router-dom'
 import FooterCard from './FooterCard'
+import Ad from './Ad'
 
 const Footer= ()=>{
 
     return ( 
         <>
+        <Ad> </Ad>
         <FooterCard></FooterCard>
         <footer className='Footer'>
             <div className='footer-wrapper'>
