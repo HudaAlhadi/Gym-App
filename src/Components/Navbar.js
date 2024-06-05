@@ -1,6 +1,7 @@
 import './Navbar.css'
 import {GiHamburgerMenu }from 'react-icons/gi'
-import {GrClose} from 'react-icons/gr'
+import { GrClose } from "react-icons/gr";
+
 import { useState } from 'react'
 import { NavLink} from 'react-router-dom'
 const Navbar=()=>{
