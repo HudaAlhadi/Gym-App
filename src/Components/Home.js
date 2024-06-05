@@ -1,9 +1,8 @@
 import './Home.css'
 import { useEffect } from 'react'
 import Cart from './UI/Cart'
-import 
-{MdOutlineCardMembership} from 'react-icons/md'
-import {AiOutlineCrown} from 'react-icons/ai'
+import { MdOutlineCardMembership } from "react-icons/md";
+import { AiOutlineCrown } from "react-icons/ai";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Header from './Header'
