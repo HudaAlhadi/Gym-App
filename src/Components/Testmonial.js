@@ -28,12 +28,8 @@ const Testmonials= [
         id: 2,
         question: 'Alex P.',
         answer: 'The personalized approach really sets this gym apart. My trainer took the time to understand my goals and created a plan that worked perfectly for me. The progress I have made is incredible.',
-        open: false,
-        
+        open: false,      
         img: '../Assests/test3.jpg'
-
-
-
     },
 
     {
@@ -49,10 +45,7 @@ const Testmonials= [
     }
 ]
 
-
-
 const Testmonial=()=>{
-
 const [index, setindex]= useState(0)
 const {question, answer,open, img}= Testmonials[index]
 const Increase=()=>{
@@ -73,10 +66,8 @@ const decrease=()=>{
 
         <>
         <div className='containerr'> 
-      
           <h2> <span> <AiOutlineCrown/> </span> Our Testimonial </h2></div>
         <div className='Testmonial-container'> 
-  
         <div className='Testmonial'>
         <img src={download}/> 
          <h2> {question}</h2>
