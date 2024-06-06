@@ -64,7 +64,8 @@ font-size: 25px;
   opacity: 0.9;
   width: 40%;
   color: white;
-  background-color: aqua;
+  background-color: rgb(23, 189, 189);
+  transition: opacity 0.8s ease
   
 }
 .nav-list ul li{

@@ -68,6 +68,9 @@ grid-template-columns: 2fr 1fr 1fr 1fr;
             grid-template-columns: 1fr 1fr;
         }
 }
-@media screen and (max-width:692px){
-   
+@media screen and (max-width:455px){
+  
+    .footer-wrapper article{
+        margin-left: 1rem;
+    }
 }
